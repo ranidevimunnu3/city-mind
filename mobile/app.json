@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CITYMIND AI",
+    "slug": "citymind-ai",
+    "version": "2.4.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1120"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.citymind.ai",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "CITYMIND AI requires location access to display local road conditions and traffic incidents."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1120"
+      },
+      "package": "com.citymind.ai",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "INTERNET"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "citymind-ai-project"
+      }
+    }
+  }
+}
